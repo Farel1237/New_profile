@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moh. Faldy | Web Dev</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="../fontawesome/css/all.css" />
+  </head>
+  <body class="overflow-x-hidden">
+    <!-- hero section -->
+    <div class="container hero-section">
+      <div
+        id="hero"
+        style="background-image: url(../assets/img/img_gunung.jpeg)"
+        class="bg-cover w-full h-full sm:w-screen sm:h-screen object-cover bg-center -mt-5"
+      >
+        <nav class="fixed right-0 left-0 top-0">
+          <div
+            class="flex justify-around bg-black bg-opacity-10 h-20 items-center relative"
+          >
+            <h1 class="text-white text-3xl tracking-wider font-bold">
+              Moh. Faldy
+            </h1>
+            <div id="toggle" class="text-white cursor-pointer sm:hidden z-50">
+              <!-- hamburger button -->
+              <svg
+                id="hamburger"
+                class="h-8 w-8 active:ring-2 active:ring-white rounded-md"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                data-slot="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+                />
+              </svg>
+              <!-- cross button -->
+              <svg
+                id="clos"
+                class="hidden h-8 w-8 active:ring-2 active:ring-white rounded-md"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                aria-hidden="true"
+                data-slot="icon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18 18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+            <ul
+              id="ul"
+              class="sm:flex md:gap-6 sm:gap-3 sm:bg-none text-white absolute right-0 top-0 mt-20 pt-6 pb-8 px-6 bg-black backdrop-blur-lg bg-opacity-15 translate-x-96 sm:translate-x-0 sm:relative sm:bg-opacity-0 sm:backdrop-blur-0 sm:mt-0 sm:p-0 rounded-bl-xl duration-500"
+            >
+              <li class="my-3 sm:my-5">
+                <a
+                  href="#hero"
+                  class="font-semibold hover:text-blue-200 text-[18px]"
+                  >Home</a
+                >
+              </li>
+              <li class="my-3 sm:my-5">
+                <a
+                  href="#about"
+                  class="font-semibold hover:text-blue-200 text-[18px]"
+                  >About</a
+                >
+              </li>
+              <li class="my-3 sm:my-5">
+                <a
+                  href="#project"
+                  class="font-semibold hover:text-blue-200 text-[18px]"
+                  >My Project</a
+                >
+              </li>
+              <li class="my-3 sm:my-5">
+                <a
+                  href="#skils"
+                  class="font-semibold hover:text-blue-200 text-[18px]"
+                  >Skils</a
+                >
+              </li>
+              <li class="mt-8 -mb-2 mr-2 sm:my-5">
+                <a
+                  href="#contact"
+                  class="font-bold text-orange-200 hover:text-blue-200 ring-2 px-3 py-2 rounded-md ring-orange-400 hover:ring-blue-400 ml-8 text-lg"
+                  >Contact Me</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <div class="flex items-center mt-5 flex-col w-full h-96 justify-center">
+          <div
+            class="w-64 h-64 bg-black bg-opacity-10 rounded-full flex justify-center mt-48"
+          >
+            <img
+              src="../assets/img/saya1.png"
+              alt=""
+              class="w-64 h-64 rounded-full"
+            />
+          </div>
+          <div>
+            <h3 class="text-3xl text-white font-bold mt-4 text-center">
+              Hello I'Am Fullstack Web Developer
+            </h3>
+          </div>
+        </div>
+        <div class="flex justify-center items-center mt-16">
+          <a
+            href="#about"
+            class="bg-blue-400 py-3 px-3 rounded-full font-semibold text-white text-md hover:bg-blue-600 active:ring-2 active:ring-blue-300 animate-bounce flex items-center gap-2 my-32"
+          >
+            <svg
+              class="w-5 h-5 text-white"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- end hero section -->
+    <!-- start about -->
+    <div
+      class="container-about w-full h-full sm:w-screen sm:h-screen bg-gradient-to-tr from-cyan-950 to-cyan-600 text-white"
+    >
+      <h1 id="about" class="text-center text-3xl pt-20 font-bold">About Me</h1>
+      <div class="flex flex-wrap sm:mt-24">
+        <div class="w-full flex justify-center sm:w-1/2">
+          <img
+            src="../assets/img/saya1.png"
+            alt=""
+            class="w-60 h-60 rounded-full shadow-2xl mt-7 sm:mt-2 sm:rounded-md sm:w-80 sm:h-80"
+          />
+        </div>
+        <div class="w-full sm:w-1/2 sm:p-6">
+          <p class="p-5">
+            Halo, Saya Seorang Fullstack Web Developer, Dengan Mebuat Website
+            Portofilo Ini Saya Bisa Melatih Skill saya dan Mungkin Saja Dari
+            Sinilah Karier saya di mulai!
+          </p>
+          <div class="h-44 flex justify-center items-center">
+            <div>
+              <p class="font-bold my-2 -mt-4">
+                Nama<span class="font-normal ml-16">: Moh. Faldy</span>
+              </p>
+              <p class="font-bold my-2">
+                Usia<span class="font-normal ml-[4.8rem]">: 18 Th</span>
+              </p>
+              <p class="font-bold my-2">
+                Jenis Kelamin<span class="font-normal ml-[0.40rem]"
+                  >: Laki- laki</span
+                >
+              </p>
+              <p class="font-bold my-2">
+                Pendidikan<span class="font-normal ml-[1.6rem]"
+                  >: S1 Teknik Informatika</span
+                >
+              </p>
+              <p class="font-bold my-2">
+                Cita - cita<span class="font-normal ml-[2.4rem]"
+                  >: Programmer</span
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end about -->
+    <!-- start my project -->
+    <div
+      class="w-full h-full bg-gradient-to-tr from-cyan-600 to-cyan-950 text-white pb-10"
+    >
+      <h1 id="project" class="text-3xl font-bold text-center pt-20 text-white">
+        My Project
+      </h1>
+      <div
+        class="flex justify-center mt-8 flex-wrap gap-3 sm:w-[80%] sm:mx-auto"
+      >
+        <div
+          class="w-[70%] h-[70%] sm:w-72 sm:h-72 bg-cyan-600 rounded-md p-7 shadow-md box-border cursor-pointer"
+        >
+          <h1 class="font-bold mb-3 text-xl">Website Article</h1>
+          <div class="flex justify-center">
+            <img
+              src="../assets/img/gunung.jpeg"
+              alt=""
+              class="rounded-sm shadow-xl w-[80%] h-1/2"
+            />
+          </div>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            dicta?
+          </p>
+        </div>
+        <div
+          class="w-[70%] h-[70%] sm:w-72 sm:h-72 bg-cyan-600 rounded-md p-7 shadow-md box-border cursor-pointer"
+        >
+          <h1 class="font-bold mb-3 text-xl">E-Commerce</h1>
+          <div class="flex justify-center">
+            <img
+              src="../assets/img/gunung.jpeg"
+              alt=""
+              class="rounded-sm shadow-xl w-[80%] h-1/2"
+            />
+          </div>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            dicta?
+          </p>
+        </div>
+        <div
+          class="w-[70%] h-[70%] sm:w-72 sm:h-72 bg-cyan-600 rounded-md p-7 shadow-md box-border cursor-pointer"
+        >
+          <h1 class="font-bold mb-3 text-xl">SIAKAD</h1>
+          <div class="flex justify-center">
+            <img
+              src="../assets/img/gunung.jpeg"
+              alt=""
+              class="rounded-sm shadow-xl w-[80%] h-1/2"
+            />
+          </div>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            dicta?
+          </p>
+        </div>
+        <div
+          class="w-[70%] h-[70%] sm:w-72 sm:h-72 bg-cyan-600 rounded-md p-7 shadow-md box-border cursor-pointer"
+        >
+          <h1 class="font-bold mb-3 text-xl">Profile MAPASCAL</h1>
+          <div class="flex justify-center">
+            <img
+              src="../assets/img/gunung.jpeg"
+              alt=""
+              class="rounded-sm shadow-xl w-[80%] h-1/2"
+            />
+          </div>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            dicta?
+          </p>
+        </div>
+        <div
+          class="w-[70%] h-[70%] sm:w-72 sm:h-72 bg-cyan-600 rounded-md p-7 shadow-md box-border cursor-pointer"
+        >
+          <h1 class="font-bold mb-3 text-xl">STMIK Shop</h1>
+          <div class="flex justify-center">
+            <img
+              src="../assets/img/gunung.jpeg"
+              alt=""
+              class="rounded-sm shadow-xl w-[80%] h-1/2"
+            />
+          </div>
+          <p class="mt-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla,
+            dicta?
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- end my project -->
+    <!-- start my skils -->
+    <div class="w-full h-full bg-gradient-to-tr from-cyan-300 to-cyan-600">
+      <h1 id="skils" class="font-bold text-center text-3xl pt-20 text-white">
+        My Skils
+      </h1>
+      <div class="h-full mt-24 flex justify-center items-center">
+        <div
+          class="w-[80%] h-full flex justify-center flex-wrap items-center gap-10 pb-28"
+        >
+          <img src="../assets/img/html.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/css.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/tailwind.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/bootstrap.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/js.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/php.png" alt="" class="w-20 h-20" />
+          <img src="../assets/img/sql.png" alt="" class="w-20 h-20" />
+        </div>
+      </div>
+    </div>
+    <!-- skils end -->
+    <!-- start contact me -->
+    <div
+      class="w-screen h-full bg-gradient-to-tr from-cyan-500 to-cyan-950 pb-10"
+    >
+      <h1 id="contact" class="text-3xl font-bold text-center pt-20 text-white">
+        Contact Me
+      </h1>
+      <div
+        class="w-[90%] h-[90%] mt-8 mx-auto flex flex-col sm:w-[600px] sm:h-full md:w-[70%]"
+      >
+        <div
+          class="bg-gradient-to-tr from-cyan-900 to-cyan-500 w-full h-full rounded-xl shadow-xl flex justify-between flex-col sm:flex-row"
+        >
+          <div
+            class="w-full bg-gradient-to-tl from-cyan-500 to-cyan-950 h-16 rounded-xl flex justify-evenly items-center shadow-xl sm:flex-col sm:h-[207px] sm:w-36 mb-5 sm:mb-0"
+          >
+            <li class="list-none">
+              <a href="https://www.instagram.com/faldyyy_03" target="_blank"
+                ><i
+                  class="fa-brands fa-instagram w-8 h-8 text-white hover:text-pink-500 duration-300"
+                ></i
+              ></a>
+            </li>
+            <li class="list-none">
+              <a
+                href="https://www.youtube.com/channel/UCkg1Qcldv3AfKKk-CWOVD9g"
+                target="_blank"
+                ><i
+                  class="fa-brands fa-youtube w-8 h-8 text-white hover:text-red-600 duration-300"
+                ></i
+              ></a>
+            </li>
+            <li class="list-none">
+              <a href="https://www.facebook.com/" target="_blank"
+                ><i
+                  class="fa-brands fa-facebook w-8 h-8 text-white hover:text-blue-800 duration-300"
+                ></i
+              ></a>
+            </li>
+          </div>
+          <div
+            class="w-full h-[70%] bg-gradient-to-tr from-cyan-500 to-cyan-950 rounded-xl flex p-6 items-center justify-center sm:h-full sm:w-[73%] lg:w-[80%]"
+          >
+            <div>
+              <h1 class="font-bold text-lg text-slate-200">Alamat :</h1>
+              <p class="ml-10 font-semibold text-slate-300">Mamboro</p>
+              <h1 class="font-bold text-lg text-slate-200">No. HP :</h1>
+              <p class="ml-10 font-semibold text-slate-300">0812-3456-7890</p>
+              <h1 class="font-bold text-lg text-slate-200">Email :</h1>
+              <p class="ml-10 font-semibold text-slate-300">
+                mohfaldi765@gmail.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full h-1/2 mt-10">
+          <div class="py-10 rounded-xl sm:w-[80%] mx-auto">
+            <form
+              action=""
+              method="post"
+              class="text-white flex flex-col gap-2 w-[80%] mx-auto"
+            >
+              <label for="name"> Nama :</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Masukan Nama Anda..."
+                class="py-2 px-3 text-black text-sm rounded-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-cyan-400"
+              />
+              <label for="email"> Email :</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Example@gmail.com"
+                class="py-2 px-3 text-black text-sm rounded-sm shadow-sm focus:outline-none focus:ring-2 focus:ring-cyan-400"
+              />
+              <div>
+                <label for="pesan" class="mb-5">Masukan Pesan :</label>
+                <textarea
+                  id="myInput"
+                  class="h-32 w-full text-black border border-gray-300 rounded-md text-sm p-2 pl-4 mt-2 focus:outline-none focus:ring-2 focus:ring-cyan-400 resize-none overflow-y-auto"
+                  rows="2"
+                ></textarea>
+              </div>
+              <div class="flex justify-end">
+                <button
+                  type="submit"
+                  id="submit"
+                  class="px-7 py-2 ring-2 ring-cyan-300 rounded-md font-bold text-lg hover:ring-orange-400 duration-300 hover:text-cyan-200"
+                >
+                  Kirim
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end contact -->
+
+    <!-- start footer -->
+    <div class="bg-cyan-800 -mt-5">
+      <footer class="shadow bg-cyan-900 text-white">
+        <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+          <div class="sm:flex sm:items-center sm:justify-between">
+            <a
+              class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse"
+            >
+              <span
+                class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+                >Moh. Faldy</span
+              >
+            </a>
+            <ul
+              class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400"
+            >
+              <li>
+                <a href="#hero" class="hover:underline me-4 md:me-6">Home</a>
+              </li>
+              <li>
+                <a href="#about" class="hover:underline me-4 md:me-6">About</a>
+              </li>
+              <li>
+                <a href="#project" class="hover:underline me-4 md:me-6"
+                  >Project</a
+                >
+              </li>
+              <li>
+                <a href="#skils" class="hover:underline me-4 md:me-6">Skils</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:underline">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <hr
+            class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8"
+          />
+          <span class="block text-sm text-white sm:text-center"
+            >© 2024 <a>farel_axe</a>. All Rights Reserved.</span
+          >
+        </div>
+      </footer>
+    </div>
+
+    <!-- endfooter -->
+    <script src="../assets/js/main.js"></script>
+    <script src="../fontawesome/js/all.js"></script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
